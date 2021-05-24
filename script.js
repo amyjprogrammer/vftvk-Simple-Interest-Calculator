@@ -12,6 +12,7 @@ function compute()
     if (principal < 1){
         alert("Please enter a positive number");
         principal.focus();
+        return
     }
   
     //final comment once the rate has been calculated
